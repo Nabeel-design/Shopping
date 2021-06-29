@@ -3,7 +3,6 @@
   margin: 0%;
   box-sizing: border-box;
   scroll-behavior: smooth;
-
 }
 .Navbar {
   display: flex;
@@ -35,7 +34,6 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
 }
 .letter {
   letter-spacing: 2px;
@@ -47,200 +45,189 @@ input {
 .icons a {
   justify-content: right;
 }
-.letter:hover{
-    transform: perspective(1.1);
-    transition: 1s;
-
+.letter:hover {
+  transform: perspective(1.1);
+  transition: 1s;
 }
 .col {
-    display: flex;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    
+  display: flex;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
-.icon i{
-    font-size: 30px;
-    padding: 0px 30px;
+.icon i {
+  font-size: 30px;
+  padding: 0px 30px;
 }
-.icon .fa-truck{
-    color: darkmagenta;
+.icon .fa-truck {
+  color: darkmagenta;
 }
 
-.icon .fa-redo{
-    color: darkmagenta;
-}
-.icon .fa-question-circle{
+.icon .fa-redo {
   color: darkmagenta;
-  
-    
-   
 }
-.sec2{
-    padding-bottom: 50px;
-    border: 2px solid whitesmoke;
+.icon .fa-question-circle {
+  color: darkmagenta;
 }
-.imagessales{
-    padding: 50px 0px;
-    background-color: whitesmoke;
-    
+.sec2 {
+  padding-bottom: 50px;
+  border: 2px solid whitesmoke;
 }
-.titbeg{
-    text-align: center;
-    background-color: white;
-    padding-bottom: 70px;
+.imagessales {
+  padding: 50px 0px;
+  background-color: whitesmoke;
 }
-.tit{
-    text-align: center;
-    background-color: white;
-    padding-bottom: 70px;
+.titbeg {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 70px;
 }
-.titend{
-    text-align: center;
-    background-color: white;
-    padding-bottom: 70px;
+.tit {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 70px;
 }
-.sub h1{
-    text-align: center;
-    padding: 80px 0px;
+.titend {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 70px;
 }
-.bigsale{
+.sub h1 {
+  text-align: center;
+  padding: 80px 0px;
+}
+.bigsale {
   padding: 50px 50px;
-  
 }
-.bigsale .SDF{
+.bigsale .SDF {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom:50px;
+  padding-bottom: 50px;
   padding-top: 100px;
 }
-.carl{
+.carl {
   color: brown;
 }
-h5{
+h5 {
   padding-bottom: 30px;
 }
-p{
+p {
   font-size: 20px;
   color: rgba(24, 23, 22, 0.377);
 }
-.section5 .btn-primary{
+.section5 .btn-primary {
   padding-bottom: 10px;
   padding-top: 10px;
   letter-spacing: 3px;
 }
-.section5 .btn-primary:hover{
+.section5 .btn-primary:hover {
   background-color: rgb(235, 79, 87);
 }
-.sale{
+.sale {
   text-align: center;
   padding-top: 20px;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
 }
-.imfo{
+.imfo {
   padding: 20px 0px;
 }
-.flex{
+.flex {
   display: flex;
   justify-content: space-between;
-  
 }
-.flex p{
+.flex p {
   font-size: 15px;
 }
-.fake{
+.fake {
   padding-bottom: 20px;
- 
 }
 
-.call{
+.call {
   padding-bottom: 20px;
 }
-.Subscribe{
+.Subscribe {
   padding-top: 30px;
 }
-.sect10{
+.sect10 {
   padding-bottom: 50px;
   padding-top: 30px;
 }
-label{
+label {
   position: relative;
 }
-.emailsend{
+.emailsend {
   border: 1px solid wheat;
   width: 300px;
   height: 50px;
   padding: 0 16px;
 }
-label botton{
-position: absolute;
-top:0;
-right: 3px;
-bottom: 0;
-background-color: yellowgreen;
-border: 1px solid black;
-padding: 5px 5px;
-margin: 5px 5px;
-border-radius: 5px;
-letter-spacing: 5px;
-text-transform: uppercase;
-text-align: center;
-transition: all 1s ease;
+label botton {
+  position: absolute;
+  top: 0;
+  right: 3px;
+  bottom: 0;
+  background-color: yellowgreen;
+  border: 1px solid black;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 1s ease;
 }
-label botton:hover{
+label botton:hover {
   background-color: brown;
   transition: 1s;
 }
-.lin{
-  height:10px;
+.lin {
+  height: 10px;
   width: 2px;
   background-color: cornflowerblue;
 }
-.footer-copyright{
+.footer-copyright {
   margin-bottom: 20px;
 }
-.Nav2{
+.Nav2 {
   padding: 20px 30px;
   background-color: rgba(240, 255, 255, 0.438);
 }
-.text1{
+.text1 {
   font-size: 20px;
 }
-.textteam{
+.textteam {
   padding: 50px 30px;
   text-align: center;
 }
-.linn{
+.linn {
   height: 3px;
   width: 50px;
   background-color: brown;
   margin: 40px auto;
 }
-.all-in-div .teamasd{
+.all-in-div .teamasd {
   display: flex;
   justify-content: space-between;
   text-align: center;
   padding: 0px 50px;
 }
-.categories{
+.categories {
   border: 1px solid rgba(0, 0, 0, 0.267);
   padding: 10px 20px;
 }
-.categories .asd{
+.categories .asd {
   display: flex;
   justify-content: space-between;
-  padding: 0 ;
- 
- 
+  padding: 0;
 }
 .cloth {
   padding-top: 50px;
   padding-bottom: 100px;
   padding-top: 100px;
   justify-content: center;
- 
 }
 .clt {
   text-align: center;
@@ -249,18 +236,18 @@ label botton:hover{
   padding-top: 0px;
   padding-right: 0px;
   padding-bottom: 50px;
-  padding-left: 0px;  
+  padding-left: 0px;
   margin: 10px 20px;
 }
-.Filtter{
+.Filtter {
   margin-top: 30px;
   border: 1px solid rgba(0, 0, 0, 0.267);
   padding: 20px 10px;
 }
-.color{
+.color {
   padding-top: 30px;
 }
-.rt{
+.rt {
   position: relative;
 }
 .rt .pat1 h1 {
@@ -269,7 +256,7 @@ label botton:hover{
   opacity: 0;
   transition: all 1s ease;
 }
-.rt .pat1:hover h1{
+.rt .pat1:hover h1 {
   opacity: 1;
 }
 .rt .pat1 p {
@@ -277,59 +264,86 @@ label botton:hover{
   bottom: 30px;
   opacity: 0;
   transition: all 1s ease;
- 
 }
-.rt .pat1:hover p{
+.rt .pat1:hover p {
   opacity: 1;
   color: brown;
   padding: 10px;
 }
-.vvvvv{
+.vvvvv {
   padding-bottom: 100px;
 }
-.lisss{
+.lisss {
   display: flex;
   justify-content: space-between;
 }
-.con{
+.con {
   display: flex;
-  justify-content:space-between;
-  
+  justify-content: space-between;
 }
-.add-to{
+.add-to {
   letter-spacing: 3px;
   line-height: 30px;
-  
 }
-.cvb{
+.cvb {
   padding-top: 30px;
   padding-bottom: 50px;
 }
-.btn-group{
+.btn-group {
   padding-top: 30px;
 }
-.bott{
-  padding-top: 30px;
-
-}
-.code{
+.bott {
   padding-top: 30px;
 }
-.teexxtt{
+.code {
+  padding-top: 30px;
+}
+.teexxtt {
   display: flex;
   justify-content: space-between;
   padding: 0px 20px;
 }
- 
-.proc{
+
+.proc {
   padding-top: 50px;
 }
-.ddddd{
+.ddddd {
   margin-bottom: 100px;
 }
-
-
-
-
-
-  
+.tologin{
+  padding: 10px 30px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.116);
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.colorsect{
+  background-color: aquamarine;
+}
+.gggggg{
+  padding: 30px 30px;
+}
+.thank{
+  padding-bottom: 50px;
+}
+.getintouch{
+  border: 1px solid rgba(0, 0, 0, 0.384);
+ 
+}
+.aaaaaa{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: royalblue;
+  border-radius: 5px;
+  padding: 10px 10px;
+ 
+}
+.aaaaaa:hover{
+  background-color: chartreuse;
+  transition: 1s;
+  transform: scale(0.8);
+}
+.sect10{
+  margin-top: 100px;
+}
